@@ -53,5 +53,5 @@ print_tuple(t)  # Prints 1 2 5 7 99, one per line
 def print_tuple(u):
     for elem in u:
         print(elem)
-u = (1), # What needs to be added to make this work?
+u = (1,) # What needs to be added to make this work?
 print_tuple(u)

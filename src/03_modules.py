@@ -14,17 +14,22 @@ import os
 # Print out the command line arguments in sys.argv, one per line:
 # YOUR CODE HERE
 
-print("This is the name of the program:", sys.argv[0])
+print(sys.argv)
 
-print("Argument List:", str(sys.argv)) 
+for i in sys.argv:
+    print(f"this is my for loop: ", i)
 
-x = sys.argv[0]
+# print("This is the name of the program:", sys.argv[0])
 
-i=0
+# print("Argument List:", str(sys.argv)) 
 
-while i < len(x):
-    print(x[i])
-    i += 1
+# x = sys.argv[0]
+
+# i=0
+
+# while i < len(x):
+#     print(x[i])
+#     i += 1
 
 # Print out the OS platform you're using:
 # YOUR CODE HERE

@@ -53,9 +53,17 @@ print(waypoints)
 waypoints[0]['lon'] = -130
 waypoints[0]['name'] = 'not a real place'
 
+# alternatively:  waypoints[0].update({"name": "not a real palce", "lon": -130})
+
 print(waypoints)
 
 # Write a loop that prints out all the field values for all the waypoints
 # YOUR CODE HERE
 
-print([val for dic in waypoints for key, val in dic.items()])
+for i in range(len(waypoints)):
+    print(waypoints[i].values())
+
+
+# alternatively: print([val for dic in waypoints for key, val in dic.items()])
+
+
