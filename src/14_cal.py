@@ -34,8 +34,6 @@ from datetime import datetime
 
 num_args = len(sys.argv)
 
-
-
 current_month = datetime.now().month
 current_year = datetime.now().year
 

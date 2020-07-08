@@ -50,6 +50,9 @@ def f3(num1, num2 = 0):
          return num1 + 1
 
 
+# def f3(a, b=0):     -- Alternate solution by instructor
+#     return a + b
+
 print(f3(1, 2))  # Should print 3
 print(f3(8))     # Should print 9
 
